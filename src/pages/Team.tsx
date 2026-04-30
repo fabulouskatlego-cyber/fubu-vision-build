@@ -73,27 +73,27 @@ const constructionManagement: MemberProps[] = [
 ];
 
 const bricklayers: MemberProps[] = [
-  { name: "Moses Thomas Masilela", role: "Bricklayer" },
-  { name: "Thulani Raymond Mncwabe", role: "Bricklayer" },
-  { name: "Edmond Tshuma", role: "Bricklayer" },
-  { name: "Neo Makgoka", role: "Bricklayer" },
-  { name: "Solomon Nndwamoto Siaruli", role: "Bricklayer" },
-  { name: "Thabang Matlala", role: "Bricklayer" },
-  { name: "Patric Tlaisego Malatji", role: "Bricklayer" },
-  { name: "Phokoane Donald Makuduele", role: "Bricklayer" },
+  { name: "Moses Thomas Masilela", role: "Safety Administrator" },
+  { name: "Thulani Raymond Mncwabe", role: "HSE Coordinator" },
+  { name: "Edmond Tshuma", role: "Risk Manager" },
+  { name: "Neo Makgoka", role: "Safety Audit & Inspector Manager" },
+  { name: "Solomon Nndwamoto Siaruli", role: "Route Planning Supervisor" },
+  { name: "Thabang Matlala", role: "Sales Manager" },
+  { name: "Patric Tlaisego Malatji", role: "Installation Supervisor" },
+  { name: "Phokoane Donald Makuduele", role: "Warehouse Manager" },
 ];
 
 const labourers: MemberProps[] = [
-  { name: "Sandh Johannes Vilanculo", role: "Labourer" },
-  { name: "Joachim Moobi", role: "Labourer" },
-  { name: "Matsobane Ezekiel Sathikge", role: "Labourer" },
-  { name: "Phataphata Ngobeni", role: "Labourer" },
-  { name: "Lucky Kubayi", role: "Labourer" },
-  { name: "Mathews Khondlo", role: "Labourer" },
-  { name: "Senanelo Kumalo", role: "Labourer" },
-  { name: "Tjetjela Ezekiel Ngobeni", role: "Labourer" },
-  { name: "Phethugo Jerry Ngomane", role: "Labourer" },
-  { name: "Tshepo Steven Maake", role: "Labourer" },
+  { name: "Sandh Johannes Vilanculo", role: "Quality Control Manager" },
+  { name: "Joachim Moobi", role: "Transport Supervisor" },
+  { name: "Matsobane Ezekiel Sathikge", role: "Logistic Manager" },
+  { name: "Phataphata Ngobeni", role: "Assistance Project Manager" },
+  { name: "Lucky Kubayi", role: "Telecom Project Manager" },
+  { name: "Mathews Khondlo", role: "Pricing & Promotions Manager" },
+  { name: "Senanelo Kumalo", role: "Customs & Import/Export Manager" },
+  { name: "Tjetjela Ezekiel Ngobeni", role: "Safety Audit & Inspection Manager" },
+  { name: "Phethugo Jerry Ngomane", role: "Key Account Manager" },
+  { name: "Tshepo Steven Maake", role: "Hygiene Inspector" },
 ];
 
 const constructionWorkforce: MemberProps[] = [...bricklayers, ...labourers];
